@@ -1,0 +1,19 @@
+PODS:
+  - AppSwizzle (1.0.0)
+  - NetworkEye (0.1.0):
+    - AppSwizzle (~> 1.0.0)
+
+DEPENDENCIES:
+  - NetworkEye (from `../`)
+
+EXTERNAL SOURCES:
+  NetworkEye:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppSwizzle: 0ba5dc3d884a5315a89ac4ab08c7f8e1c85c795c
+  NetworkEye: ffc7564f4e09c0f23dfbaf44a9d725b49af2261a
+
+PODFILE CHECKSUM: 12d08b049f24a99d0f5ce329d19091c6cc1d22dd
+
+COCOAPODS: 1.2.0
