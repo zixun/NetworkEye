@@ -10,7 +10,7 @@ This library is derived from the [GodEye](https://github.com/zixun/GodEye) proje
 
 ## Book & Principle
 
-**I has wrote a book named [《iOS监控编程》](),each chapter records the course function of the implementation details and the way to explore.sorry for english friends,this book wrote by chineses.**
+**I has wrote a book named [《iOS监控编程》](https://www.qingdan.us/product/25),each chapter records the course function of the implementation details and the way to explore.sorry for english friends,this book wrote by chineses.**
 
 ## Example
 
