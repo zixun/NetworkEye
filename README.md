@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/cocoapods/l/NetworkEye.svg?style=flat)](http://cocoapods.org/pods/NetworkEye)
 [![Platform](https://img.shields.io/cocoapods/p/NetworkEye.svg?style=flat)](http://cocoapods.org/pods/NetworkEye)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage) 
 
 NetworkEye is a network monitor,automatic catch the request and response infomation of all kinds of request send
 
@@ -35,11 +36,18 @@ func networkEyeDidCatch(with request:URLRequest?,response:URLResponse?,data:Data
 
 ## Installation
 
+### CocoaPods
 NetworkEye is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "NetworkEye"
+```
+### Carthage
+Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwViewCapture to your Cartfile:
+
+``` 
+github "zixun/NetworkEye"
 ```
 
 ## Author
