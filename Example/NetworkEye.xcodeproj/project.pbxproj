@@ -465,7 +465,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOSAppSwizzle.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AppSwizzle.framework",
 			);
 			outputPaths = (
 			);
