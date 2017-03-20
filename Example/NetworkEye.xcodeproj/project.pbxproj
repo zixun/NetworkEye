@@ -465,7 +465,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/AppSwizzle.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/AppSwizzle.framework",
 			);
 			outputPaths = (
 			);
@@ -694,7 +694,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = /Users/user/Documents/code/play/GodEye/Github/NetworkEye/Carthage/Build/iOSAppSwizzle.framework;
+				FRAMEWORK_SEARCH_PATHS = /Users/user/Documents/code/play/GodEye/Github/NetworkEye/Carthage/Build/iOS/AppSwizzle.framework;
 				INFOPLIST_FILE = NetworkEye/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
@@ -725,7 +725,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = /Users/user/Documents/code/play/GodEye/Github/NetworkEye/Carthage/Build/iOSAppSwizzle.framework;
+				FRAMEWORK_SEARCH_PATHS = /Users/user/Documents/code/play/GodEye/Github/NetworkEye/Carthage/Build/iOS/AppSwizzle.framework;
 				INFOPLIST_FILE = NetworkEye/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
