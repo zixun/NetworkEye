@@ -30,5 +30,5 @@ NetworkEye is a network monitor,automatic catch the request and response infomat
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'NetworkEye/Classes/**/*'
-  s.dependency 'AppSwizzle', '~> 1.0.0'
+  s.dependency 'AppSwizzle', '~> 1.1.1'
 end
