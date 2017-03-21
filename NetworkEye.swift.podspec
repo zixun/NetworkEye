@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NetworkEye.swift'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'NetworkEye is a network monitor,automatic catch the request and response infomation of all kinds of request send.'
 
 # This description is used to generate tags and improve search results.
