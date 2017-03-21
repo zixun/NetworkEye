@@ -19,6 +19,7 @@
 		9E24FA091E7FC47E001AD0D7 /* NetworkEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E24FA061E7FC47E001AD0D7 /* NetworkEye.swift */; };
 		9E24FA0A1E7FC47E001AD0D7 /* URLSession+Eye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E24FA071E7FC47E001AD0D7 /* URLSession+Eye.swift */; };
 		9E24FA0B1E7FC498001AD0D7 /* AppSwizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E24F9E21E7FBA0E001AD0D7 /* AppSwizzle.framework */; };
+		9E24FAF31E817F68001AD0D7 /* NetworkEye.swift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9E24FAF21E817F68001AD0D7 /* NetworkEye.swift.podspec */; };
 		AAEA25B20B7FF6B23C52F683 /* Pods_NetworkEye_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F765BDD2DBAAE07BE313E70F /* Pods_NetworkEye_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,8 +56,8 @@
 		9E24FA051E7FC47E001AD0D7 /* EyeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeProtocol.swift; sourceTree = "<group>"; };
 		9E24FA061E7FC47E001AD0D7 /* NetworkEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEye.swift; sourceTree = "<group>"; };
 		9E24FA071E7FC47E001AD0D7 /* URLSession+Eye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Eye.swift"; sourceTree = "<group>"; };
+		9E24FAF21E817F68001AD0D7 /* NetworkEye.swift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NetworkEye.swift.podspec; path = ../NetworkEye.swift.podspec; sourceTree = "<group>"; };
 		B44E08D635539770D577545B /* Pods-NetworkEye_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkEye_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkEye_Tests/Pods-NetworkEye_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CCA1955B63EEB742A112790D /* NetworkEye.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NetworkEye.podspec; path = ../NetworkEye.podspec; sourceTree = "<group>"; };
 		F50399156AE7AD82AA49298B /* Pods-NetworkEye_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkEye_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkEye_Example/Pods-NetworkEye_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F765BDD2DBAAE07BE313E70F /* Pods_NetworkEye_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkEye_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F882F7C00A27B2F7998755D6 /* Pods-NetworkEye_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkEye_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkEye_Example/Pods-NetworkEye_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,7 +156,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				CCA1955B63EEB742A112790D /* NetworkEye.podspec */,
+				9E24FAF21E817F68001AD0D7 /* NetworkEye.swift.podspec */,
 				8F3D12B008DCACFB88CF31AC /* README.md */,
 				531A0E864ADD71D18060EE17 /* LICENSE */,
 			);
@@ -346,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E24FAF31E817F68001AD0D7 /* NetworkEye.swift.podspec in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,

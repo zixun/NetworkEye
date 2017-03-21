@@ -1,7 +1,7 @@
 PODS:
-  - AppSwizzle (1.0.0)
-  - NetworkEye.swift (1.0.0):
-    - AppSwizzle (~> 1.0.0)
+  - AppSwizzle (1.1.1)
+  - NetworkEye.swift (1.1.0):
+    - AppSwizzle (~> 1.1.1)
 
 DEPENDENCIES:
   - NetworkEye.swift (from `../`)
@@ -11,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AppSwizzle: 0ba5dc3d884a5315a89ac4ab08c7f8e1c85c795c
-  NetworkEye.swift: 4d57f9dc06df3ec31230f7b9f2ad49e33a118498
+  AppSwizzle: ff4ae6735b6e2bab9991d5b660357beae2fa6e68
+  NetworkEye.swift: c99e8f04bd0c31abd7a67cb2dd0bc853684c1c8c
 
 PODFILE CHECKSUM: fb21f5492104a96e2a848f861b53aa7335fe9ded
 

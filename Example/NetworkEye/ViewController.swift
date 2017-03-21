@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NetworkEye
 
 class ViewController: UIViewController {
 
