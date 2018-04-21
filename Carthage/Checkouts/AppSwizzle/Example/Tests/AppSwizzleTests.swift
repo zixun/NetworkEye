@@ -86,11 +86,11 @@ extension AppSwizzleTests {
 
 class OtherClass: NSObject {
     
-    func alterSelector_testSwizzleInstanceMethodToAlterClass() {
+    @objc func alterSelector_testSwizzleInstanceMethodToAlterClass() {
         XCTAssert(true, "Pass")
     }
     
-    class func alterSelector_testSwizzleClassMethodToAlterClass() {
+    @objc class func alterSelector_testSwizzleClassMethodToAlterClass() {
         XCTAssert(true, "Pass")
     }
 }

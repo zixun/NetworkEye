@@ -1,19 +1,23 @@
 PODS:
-  - AppSwizzle (1.1.1)
-  - NetworkEye.swift (1.1.0):
-    - AppSwizzle (~> 1.1.1)
+  - AppSwizzle (1.3.1)
+  - NetworkEye.swift (1.2.0):
+    - AppSwizzle (~> 1.3.1)
 
 DEPENDENCIES:
   - NetworkEye.swift (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AppSwizzle
 
 EXTERNAL SOURCES:
   NetworkEye.swift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AppSwizzle: ff4ae6735b6e2bab9991d5b660357beae2fa6e68
-  NetworkEye.swift: c99e8f04bd0c31abd7a67cb2dd0bc853684c1c8c
+  AppSwizzle: db36e436f56110d93e5ae0147683435df593cabc
+  NetworkEye.swift: 23f9f48f42261cbb42e4165e5339efa655ee96c1
 
 PODFILE CHECKSUM: fb21f5492104a96e2a848f861b53aa7335fe9ded
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.0

@@ -10,7 +10,7 @@ import Foundation
 import AppSwizzle
 
 extension URLSession {
-    convenience init(configurationMonitor: URLSessionConfiguration, delegate: URLSessionDelegate?, delegateQueue queue: OperationQueue?) {
+    @objc convenience init(configurationMonitor: URLSessionConfiguration, delegate: URLSessionDelegate?, delegateQueue queue: OperationQueue?) {
         
         if configurationMonitor.protocolClasses != nil {
             configurationMonitor.protocolClasses!.insert(EyeProtocol.classForCoder(), at: 0)
